@@ -1,4 +1,5 @@
-/* dado um número em decimal converter para sua forma binaria */
+/* dado um nÃºmero em decimal converter para sua forma binaria */
+/* OBSERVAÃ‡ÃƒO: a leitura do numero binario e feita do ultimo ao primeiro numero */
 
 #include <stdio.h>
 int main() {
@@ -8,13 +9,13 @@ int main() {
  printf("Digite o numero: ");
  scanf("%d", &numero);
 
- // Verifica se é o número 1 e imprime ele mesmo
+ // Verifica se Ã© o nÃºmero 1 e imprime ele mesmo
  if(numero == 1) {
   printf("%d\n", numero);
  }
- // Caso o número seja maior do que 1, realiza
-    // divisões sucessivas por 2, imprimindo o seu
-    // resto para construção da forma binária.
+ // Caso o nÃºmero seja maior do que 1, realiza
+    // divisÃµes sucessivas por 2, imprimindo o seu
+    // resto para construÃ§Ã£o da forma binÃ¡ria.
  else {
         printf("\nForma binaria: \n");
   do {
@@ -24,4 +25,3 @@ int main() {
   } while(numero >= 1);
  }
 }
-/* OBSERVAÇÃO: a leitura do numero binario e feita do ultimo ao primeiro numero */
